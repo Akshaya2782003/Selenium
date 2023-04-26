@@ -1,0 +1,89 @@
+{
+  "id": "dddf3d15-9b39-4a55-8777-3be09a6c29d2",
+  "version": "2.0",
+  "name": "project2",
+  "url": "https://placement.skcet.ac.in",
+  "tests": [{
+    "id": "bc039d06-8792-4288-a355-0ffff50e65b0",
+    "name": "test2",
+    "commands": [{
+      "id": "14cd7352-9bda-4cf7-9e37-f9c62a9658ac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69a1a145-1d8f-4f15-accd-23f00049297b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c470653-21bf-4cab-beef-2e8ec6ede1a4",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a14f1e0-7dcd-44e7-8259-7ed5e7414e77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t-py-20:nth-child(1)",
+      "targets": [
+        ["css=.t-py-20:nth-child(1)", "css:finder"],
+        ["xpath=//li[7]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7b174a5-f876-4535-a9f5-87643fb255f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.app-item:nth-child(3) > .t-h-80",
+      "targets": [
+        ["css=.app-item:nth-child(3) > .t-h-80", "css:finder"],
+        ["xpath=//li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eb200d3-0212-43bc-aac5-2a02f91394a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#courseCardID-1 .t-text-primary",
+      "targets": [
+        ["css=#courseCardID-1 .t-text-primary", "css:finder"],
+        ["xpath=//app-user-card[@id='courseCardID-1']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed0f83a2-3d36-4342-aff5-c648e6c61a97",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f827b61-ea88-4dfb-bb25-41aa3d7f0a34",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a22d4139-fab2-4fc8-845f-357bdae28629",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bc039d06-8792-4288-a355-0ffff50e65b0"]
+  }],
+  "urls": ["https://placement.skcet.ac.in/"],
+  "plugins": []
+}
